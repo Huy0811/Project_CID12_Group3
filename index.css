@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+@import "./assets/css/home.css";
+@import "./assets/css/product.css";
+@import "./assets/css/product_detail.css";
+@import "./assets/css/about.css";
+@import "./assets/css/contact.css";
+@import "./assets/css/user.css";
+@import "./assets/css/cart.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  background-color: #fff;
+  font-size: 16px;
+}
+
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+p {
+  font-size: 14px;
+  line-height: 25px;
+  color: #2a2a2a;
+}

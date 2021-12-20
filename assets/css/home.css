@@ -1,0 +1,42 @@
+/* Header */
+.header {
+  border-bottom: 3px dotted #eee;
+  box-shadow: none;
+  background-color: #fff;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 100;
+  transition: all 0.5s ease 0s;
+}
+
+.header .main-nav {
+  min-height: 80px;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .main-nav .nav li {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header .main-nav .nav li {
+  display: block;
+  font-weight: 600;
+  font-size: 15px;
+  color: #2a2a2a;
+  transition: all 0.3s ease 0s;
+  height: 40px;
+  line-height: 40px;
+  border: transparent;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.header .main-nav .nav li:hover {
+  color: #aaa;
+}
